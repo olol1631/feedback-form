@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <title>Форма обратной связи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-feedback" action="feedback.php" method="POST">
+            <h2 class="title">Форма обратной связи</h2> 
+            <input class="input input-name" name="name" type="text" placeholder="Ваше имя" required>
+            <input  class="input input-email" name="email" type="email" placeholder="Ваш email" required>
+            <textarea class="message" name="message" placeholder="Ваше сообщение" maxlength="150" required></textarea>
+            <input class="input-submit" type="submit" value="Отправить письмо">
+        </form>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #3b3b3b;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.form-feedback {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.input, .message {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color: gray;
+  padding: 5px 10px;
+}
+
+.message {
+  resize: none;
+  height: 150px;
+}
+
+.input-submit {
+  background-color: #5cb95c;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  background-color: #4cb04c;
+}
+/*# sourceMappingURL=style.css.map */
